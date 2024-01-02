@@ -1,0 +1,168 @@
+*::-webkit-scrollbar {
+    width: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 1536px;
+    margin: 0 auto;
+}
+
+.image-wrapper {
+    position: relative;
+}
+
+.photo1 {
+    width: 1440px;
+    height: 376px;
+    flex-shrink: 0;
+}
+
+.ellipse1 {
+    width: 415.572px;
+    height: 338.362px;
+    transform: rotate(-15.05deg);
+    flex-shrink: 0;
+    fill: #D5E093;
+    opacity: 0.7;
+    position: absolute;
+    left: 85px;
+    bottom: -159.66px;
+    z-index: 2;
+}
+
+.ellipse2 {
+    width: 596px;
+    height: 338px;
+    flex-shrink: 0;
+    fill: #0C6D3C;
+    opacity: 0.7;
+    position: absolute;
+    left: 175px;
+    bottom: -111px;
+    z-index: 2;
+}
+
+.main-section {
+    padding-top: 68px;
+    z-index: 4;
+
+}
+
+.main-wrapper {
+    display: flex;
+    align-self: center;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.main-word {
+    width: 285px;
+    height: 92px;
+    flex-shrink: 0;
+    border-radius: 16.5px;
+    background: #FFF;
+    box-shadow: 0px 0px 14px 0px #D5E093;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.main-word p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+
+}
+
+.global-padding {
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+#first-word {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+    text-align: center;
+}
+
+.main2-section {
+
+    height: 646px;
+    flex-shrink: 0;
+    margin-top: 68px;
+    display: flex;
+
+}
+
+.texts {
+    width: 700px;
+}
+
+#first-text {
+    color: #15854F;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.text-y {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.first-second-img {
+    display: flex;
+    gap: 50px;
+}
+
+#thrd-img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    ;
+}
+.main3-section {
+
+    height: 646px;
+    flex-shrink: 0;
+    margin-top: 68px;
+    display: flex;
+}
+#word-result {
+    color: #15854F;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 61px;
+}
+
+.main-text {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+}
